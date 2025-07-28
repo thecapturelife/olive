@@ -39,7 +39,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/page";
-// import Navbar from "@/components/Navbar"; // Adjust path if needed
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +53,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Olive Events",
   description: "Event Management Company",
+
+ icons:{
+    icon:['/favicon.ico?v=4'],
+    apple:['apple-touch-icon.png?=v4'],
+    shortcut:['apple-touch-icon.png']
+  }
 };
 
 export default function RootLayout({

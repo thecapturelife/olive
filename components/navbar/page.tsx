@@ -95,8 +95,8 @@
   "use client";
 
   import React, { useState } from "react";
-  import Link from "next/link";
   import Image from "next/image";
+import Link from "next/link";
 
   const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -169,7 +169,7 @@
               About
             </Link>
             <Link
-              href="/gallery"
+              href="/showcase"
               onClick={() => setIsOpen(false)}
               className="block px-4 py-2 rounded hover:bg-gray-100"
             >

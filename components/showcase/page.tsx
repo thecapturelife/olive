@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const photos = Array.from({ length: 20 }, (_, i) => `/gallery/photo${i + 1}.jpg`); // e.g., /gallery/photo1.jpg to photo20.jpg
+const photos = Array.from({ length: 20 }, (_, i) => `/gallery/photo${i + 1}.jpg`);
 
 const Showcase = () => {
   return (
